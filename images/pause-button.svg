@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        fill: #58595b;
+      }
+    </style>
+  </defs>
+  <g id="pause-button">
+    <g id="left-piece">
+      <rect class="cls-1" x="4" y="4" width="22" height="71" rx="4.03" ry="4.03"/>
+      <rect class="cls-2" width="22" height="71" rx="4.03" ry="4.03"/>
+    </g>
+    <g id="right-piece">
+      <rect class="cls-1" x="35" y="4" width="22" height="71" rx="4.03" ry="4.03"/>
+      <rect class="cls-2" x="31" width="22" height="71" rx="4.03" ry="4.03"/>
+    </g>
+  </g>
+</svg>

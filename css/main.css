@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(180, 158, 209);
+}
+
+header {
+   height: 200px;
+   padding-top: 50px;
+   background-color: rgb(198, 213, 254);
+   border-bottom: dashed 5px rgb(136, 39, 158);;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    color: rgb(235, 213, 255);
+    background-color: rgb(136, 39, 158);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    border-radius: 30%;
+    width: 50%;
+    border: solid 10px rgb(89, 31, 102);
+    
+}
+
+main {
+    margin-top: 50px;
+    position: relative;
+}
+
+p {
+    font-size: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#icons {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;    
+}
+
+#icons li {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 300px;
+}
+
+#icons object {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-self: center;
+}
+
+#icons p {
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    border: solid 2px black;
+    padding: 10px;
+}
+
+#bass-disc {
+    width: 200px;
+}
+
+#missing-disc {
+    width: 200px;
+}
+
+#disc {
+    width: 200px;
+}
+
+#reset {
+    width: 200px;
+}
+
+#help {
+    width: 60px;
+}
+
+#play {
+    width: 80px;
+}
+
+#pause {
+    width: 60px;
+}
+
+#quarter-note {
+    width: 60px;
+}
+
+#eighth-note {
+    width: 160px;
+}
+
+#character {
+    width: 200px;
+}
+
+
+
+
+
+
+
