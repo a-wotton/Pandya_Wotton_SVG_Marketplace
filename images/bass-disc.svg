@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183.21 183.21">
+<svg id="bass-disc" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183.21 183.21">
   <defs>
     <style>
       .cls-1 {
@@ -68,6 +68,19 @@
         stroke-width: 1.15px;
       }
     </style>
+
+    <script>
+      let bassDisc = document.querySelector('#bass-disc')
+
+      function logID() {
+      console.log("You've selected", this.id);
+      }
+
+      bassDisc.addEventListener('click', logID)
+    
+    </script>
+
+
   </defs>
   <circle class="cls-8" cx="91.61" cy="91.61" r="90.21"/>
   <circle class="cls-12" cx="91.08" cy="90.73" r="31.35"/>
