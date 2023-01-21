@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154.24 47">
+<svg id="reset-button" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154.24 47">
   <defs>
     <style>
       .cls-1 {
@@ -35,6 +35,17 @@
         letter-spacing: .02em;
       }
     </style>
+
+     <script>
+      let resetButton = document.querySelector('#reset-button')
+
+      function logID() {
+      console.log("You've selected", this.id);
+      }
+
+      resetButton.addEventListener('click', logID)
+    
+    </script>
   </defs>
   <g id="reset-button">
     <rect class="cls-2" x="5" y="5" width="149.24" height="42" rx="9.08" ry="9.08"/>

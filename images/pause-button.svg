@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 75">
+<svg id="pause-button" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 75">
   <defs>
     <style>
       .cls-1 {
@@ -10,6 +10,17 @@
         fill: #58595b;
       }
     </style>
+
+     <script>
+      let pauseButton = document.querySelector('#pause-button')
+
+      function logID() {
+      console.log("You've selected", this.id);
+      }
+
+      pauseButton.addEventListener('click', logID)
+    
+    </script>
   </defs>
   <g id="pause-button">
     <g id="left-piece">
